@@ -1,0 +1,6 @@
+baseURL = 'https://adrian2045.com/'
+languageCode = 'en-us'
+title = 'adrian2045.com'
+author = 'Adrián Deccico'
+description = "Adrián Deccico's web site"
+theme = "hugo-clarity"
