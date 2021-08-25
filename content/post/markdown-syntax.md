@@ -8,9 +8,7 @@ tags = [
     "markdown",
     "css",
     "html",
-    "themes",
-    "featured"
-]
+    "themes"]
 #categories = [
 #    "themes",
 #    "syntax",
