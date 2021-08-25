@@ -11,11 +11,11 @@ tags = [
     "themes",
     "featured"
 ]
-categories = [
-    "themes",
-    "syntax",
-]
-series = ["Themes Guide"]
+#categories = [
+#    "themes",
+#    "syntax",
+#]
+#series = ["Themes Guide"]
 aliases = ["migrate-from-jekyl"]
 thumbnail = "images/building.png"
 +++
