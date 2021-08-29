@@ -4,13 +4,13 @@ date = "2021-01-08"
 description = "GTP-3, an AI model from OpenAI delivered impressive results in natural language tasks. We discuss in this article how close it is from human-level intelligence. What are the risks of this system, its limitations and whether we are getting too close to live into the Matrix… 🙂"
 tags = [
     "AI",
-    "featured"
+    "ml"
 ]
 aliases = [
     "/gpt-3-impressions",
 ]    
 thumbnail = "images/gpt3/giant_brains.png"
-featured = true
+featured = false
 +++
 
 GTP-3, an AI model from OpenAI delivered impressive results in natural language tasks. We discuss in this article how close it is from human-level intelligence. What are the risks of this system, its limitations and whether we are getting too close to live into the Matrix… 🙂"
