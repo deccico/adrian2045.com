@@ -190,8 +190,10 @@ Subdivide the work to find bugs sooner and communicate the team what we are doin
 The whole process should be prepared to give feedback as soon as possible. If we find that, for example, 
 some tests are taking too long, or that a compilation from scratch takes more than an hour, we could configure a nightly 
 and a daily integration. While the first one would be working from scratch, the daily integration should catch most of the 
-errors in just a few minutes. We should wisely try to apply the Pareto principle (#6) to include the 20% most important 
+errors in just a few minutes. We should wisely try to apply the Pareto principle [^2] to include the 20% most important 
 tests in the daily process in order to always try to catch 80% of the errors.
+
+[^2]: Pareto principle – http://en.wikipedia.org/wiki/Pareto_principle
 
 ## Communication Everyone should easily know the state and the changes made to the system.
 
@@ -200,8 +202,8 @@ Everybody in the team will feel better and get updated about everybody's work.
 
 ## Production. Make the integration and tests in a production clone
 
-It is highly desirable to try clone every aspect of production in our CI Server. This is to help preventing failures 
-when we execute our tests.
+It is highly desirable to try clone every aspect of production in our CI Server. This is necessary in order to avoid 
+false positives or negatives when we execute our tests.
 
 # Benefits
 
@@ -227,5 +229,4 @@ Some benefits of implementing this practice:
 - About Agile and XP – http://agilemanifesto.org/principles.html
 - CI servers matrix – http://confluence.public.thoughtworks.org/display/CC/CI+Feature+Matrix
 - Grady Booch, Desgin Strategies – http://www.amazon.com/Best-Booch-Designing-Strategies-Technology/dp/0137396163/ref=sr_1_2?ie=UTF8&s=books&qid=1262278301&sr=8-2
-- Pareto principle – http://en.wikipedia.org/wiki/Pareto_principle
 
