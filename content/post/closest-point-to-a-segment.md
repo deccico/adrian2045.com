@@ -1,5 +1,5 @@
 +++
-title = "How to calculate the closest point to a segment"
+title = "How to calculate the closest point on a segment to a point"
 date = "2010-06-06"
 tags = [
     "c++",
@@ -7,14 +7,15 @@ tags = [
     "geometry",
     "snippet",
 ]
-thumbnail = "images/posts/geometria.png"
+thumbnail = "images/posts/closest_point.png"
 featured = false
 +++
 
-![](/images/posts/geometria.png "")
+![](/images/posts/closest_point.png "")
 
-Hi, below there is a little snippet that calculates the closest point to a segment. It is written in C++ 
-but can be easily translated to any other language. 
+Hi, below there is a little snippet that calculates the closest point on a segment to a determined point. 
+
+It is written in C++ but can be easily translated to any other language. 
 
 Disclaimer: given its age, it uses hungarian notation, and some names are in Spanish, but it was deeply 
 tested and works as expected. 
@@ -23,7 +24,7 @@ tested and works as expected.
 //--------------------------------------------------------------------------------------------------------
 //author: Adrián Deccico - http://adrian.org.ar
 /*
-Description: calculate the closest point belonging to a given segment.
+Description: calculate the closest point on a segment to a point.
 Parameters:
 nSx1, nSy1 =  First point of the segment
 nSx2, int nSy2 = Second point of the segment
