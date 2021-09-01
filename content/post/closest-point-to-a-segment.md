@@ -17,7 +17,7 @@ Hi, below there is a little snippet that calculates the closest point on a segme
 
 It is written in C++ but can be easily translated to any other language. 
 
-Disclaimer: given its age, it uses hungarian notation, and some names are in Spanish, but it was deeply 
+Disclaimer: given its age, it uses hungarian notation, and some names are in Spanish, but it was thoroughly
 tested and works as expected. 
 
 ```c++
