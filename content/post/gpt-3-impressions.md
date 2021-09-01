@@ -10,7 +10,7 @@ aliases = [
     "/gpt-3-impressions",
 ]    
 thumbnail = "images/gpt3/giant_brains.png"
-featured = false
+featured = true
 +++
 
 GTP-3, an AI model from OpenAI delivered impressive results in natural language tasks. We discuss in this article how close it is from human-level intelligence. What are the risks of this system, its limitations and whether we are getting too close to live into the Matrix… 🙂"

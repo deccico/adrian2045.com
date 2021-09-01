@@ -9,7 +9,7 @@ tags = [
     "jenkins"
 ]
 thumbnail = "/images/posts/cicd.png"
-featured = false
+featured = true
 +++
 
 Applying Continuous Integration best practices can make your team deliver more functionality in a fraction of time.
