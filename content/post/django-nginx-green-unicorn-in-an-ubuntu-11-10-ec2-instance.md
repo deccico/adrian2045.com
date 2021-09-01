@@ -270,10 +270,8 @@ sudo stop django_app
 # To sum up
 
 The purpose of this post is to provide a path to make the installation and configuration of this stack easier. While 
-some things could be changed or improved the focus was to stress how easily we can configure everything from scratch 
+some things could be changed or improved the focus was to highlight how easily we can configure everything from scratch 
 rather than exploring or discussing different options.
-
-The code and configuration files of this post can be found here: https://bitbucket.org/deccico/django_gunicorn Have fun!
 
  
 # References
@@ -288,7 +286,7 @@ The code and configuration files of this post can be found here: https://bitbuck
 
 
 
-Update: these instructions are now automated in this new post
+Update: these instructions are now automated in this [new post](/post/automatic-setup-of-django-nginx-and-gunicorn-on-ec2/)
 
 Note: This article was originally published here: http://adrian.org.ar/django-nginx-green-unicorn-in-an-ubuntu-11-10-ec2-instance/
 you can find the old post here: https://web.archive.org/web/20140527123847/http://adrian.org.ar/django-nginx-green-unicorn-in-an-ubuntu-11-10-ec2-instance/
