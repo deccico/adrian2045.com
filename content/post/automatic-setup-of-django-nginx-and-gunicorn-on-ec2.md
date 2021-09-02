@@ -14,6 +14,7 @@ tags = [
     "sysadmin",
 ]
 featured = true
+thumbnail = "/images/posts/250px-Bellatrix.jpg"
 +++
 ![](/images/posts/jenkins_pipeline.png)
 

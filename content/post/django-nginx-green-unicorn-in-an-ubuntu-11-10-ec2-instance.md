@@ -12,6 +12,7 @@ tags = [
     "ubuntu",
 ]
 featured = true
+thumbnail = "/images/posts/django.png"
 +++
 
 Django has become the de-facto web framework for Python. Although, since Django just specializes in dynamic content, 
