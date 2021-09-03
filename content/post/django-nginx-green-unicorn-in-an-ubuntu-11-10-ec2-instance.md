@@ -274,6 +274,7 @@ The purpose of this post is to provide a path to make the installation and confi
 some things could be changed or improved the focus was to highlight how easily we can configure everything from scratch 
 rather than exploring or discussing different options.
 
+The code and configuration files of this post can be found here: https://github.com/deccico/django_gunicorn Have fun!
  
 # References
 

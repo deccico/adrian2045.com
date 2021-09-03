@@ -21,16 +21,18 @@ thumbnail = "/images/posts/250px-Bellatrix.jpg"
 Some time ago I wrote some [lengthy instructions](/post/django-nginx-green-unicorn-in-an-ubuntu-11-10-ec2-instance) 
 on how to configure Django, NGinx and Green Unicorn on a brand new Ubuntu EC2 instance. Now, I want to show how to 
 automate the same tasks using a command line tool called Bellatrix. We will also provide a Jenkins (formerly Hudson) 
-pipeline so we have, if we want, a nice display for the UI.
+pipeline, so we have (if we want) a nice display for the UI.
 
 
 # What is Bellatrix?
 
 ![](/images/posts/250px-Bellatrix.jpg)
 
-Bellatrix is a set of (magic) command line utilities for EC2. It wraps the boto library in order to provide a set of easy to use commands that will help you with the common EC2 operations (start, stop, list, provision, burn, etc.) You can find more information about Bellatrix on this link.
+Bellatrix is a set of (magic) command line utilities for EC2. It wraps the boto library in order to provide a set of 
+easy to use commands that will help you with the most common EC2 operations (start, stop, list, provision, burn, etc.) 
+You can find more information about Bellatrix on this [link](https://bellatrix.readthedocs.io/en/latest/).
 
-We will use Bellatrix to help us provisioning a blank Ubuntu EC2 image (AMI) by using these commands:
+We will use Bellatrix to help us to provision a blank Ubuntu EC2 image (AMI) by using these commands:
 
 ```bash
     pip install bellatrix
@@ -108,20 +110,22 @@ your formerly blank Ubuntu.
 First, you need to get the provisioning configuration file:
 
 ```bash
-wget https://bitbucket.org/deccico/bellatrix_configs/raw/tip/bellatrix_configs/ubuntu_django_nginx_gunicorn.py
+wget https://raw.githubusercontent.com/deccico/bellatrix_configs/master/bellatrix_configs/ubuntu_django_nginx_gunicorn.py
 ```
 
 If you are interested in getting also the Jenkins jobs for this article or looking at other provisioning examples you 
 can instead clone the whole project:
 
 ```bash
-hg clone ssh://hg@bitbucket.org/deccico/bellatrix_configs
+hg clone https://github.com/deccico/bellatrix_configs.git
 ```
 
 
-bellatrix provision executes a list of commands. Since every command is just a simple list of Python strings it’s very easy to add your own just by looking at the available ones. Bellatrix already provides an interesting set of generic, ready to use commands that cover the most common operations.
+bellatrix provision executes a list of commands. Since every command is just a simple list of Python strings it is very 
+easy to add your own just by looking at the available ones. Bellatrix already provides an interesting set of generic, 
+ready to use commands that cover the most common operations.
 
-* Bellatrix commands: – https://bitbucket.org/adeccico/bellatrix/src/tip/bellatrix/lib/cmds.py
+* Bellatrix commands: – https://github.com/deccico/bellatrix/blob/master/bellatrix/lib/cmds.py
 * bellatrix provision documentation: – http://bellatrix.readthedocs.org/en/latest/commands_use_tut.html#provisioning-an-ec2-instance-or-any-host
 
 
@@ -180,5 +184,5 @@ terminated instance won’t generate any cost.
 
 In case you plan to execute these commands more than once (like for any new Ubuntu release) you can find 
 the Jenkins pipeline ready to be used 
-[here](https://bitbucket.org/deccico/bellatrix_configs/src/d74adf3aa956/jenkins_jobs). Remember to copy the jobs to 
+[here](https://github.com/deccico/bellatrix_configs/tree/master/jenkins_jobs). Remember to copy the jobs to 
 your Jenkins “jobs” directory and to restart Jenkins afterwards.
