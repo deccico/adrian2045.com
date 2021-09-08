@@ -32,7 +32,6 @@ This project automates tasks in Xero. In particular, it does the following:
 * Code: https://github.com/deccico/apigee_automation 
 * Newer version: https://github.com/darumatic/apigee-cli
 * Platform: Linux
-* Role: Initial Architect and Developer. The tool is now maintained by Matthew Delotavo
 
 The Apigee Management command-line interface is designed to provide a simple command-line experience with CI/CD and SSO 
 features in mind.
