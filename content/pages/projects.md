@@ -3,6 +3,8 @@ title = "Projects"
 author = "Adrián Deccico"
 date = "2021-09-07"
 showShare = false
+showDate = false
+showReadTime = false
 +++
 
 These are some projects I worked on. Most of them are available on Github.
