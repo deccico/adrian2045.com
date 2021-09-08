@@ -25,11 +25,12 @@ This project automates tasks in Xero. In particular, it does the following:
 
 ---
 
-# Apigee Client Tool
+# Apigee Automation
 
 * Type: Apigee Automation Tool
-* Date: 2021
-* Code: https://github.com/darumatic/apigee-cli
+* Date: 2019
+* Code: https://github.com/deccico/apigee_automation 
+* Newer version: https://github.com/darumatic/apigee-cli
 * Platform: Linux
 * Role: Initial Architect and Developer. The tool is now maintained by Matthew Delotavo
 
