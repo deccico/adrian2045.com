@@ -1,6 +1,6 @@
 +++
 title = "The Master And Margarita - book review"
-date = "2019-03-10"
+date = "2021-11-17"
 description = "Brief review of Mikhail Bulgakov book, The Master And Margarita "
 tags = [
     "literature",
