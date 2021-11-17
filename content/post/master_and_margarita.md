@@ -32,4 +32,4 @@ Within that context we can understand why the “prosecuted artist” is a const
 
 After finishing the book, we are left with a formula for a happy life. Don’t get too attached with material possessions. Everything perishes or vanish like the ruble notes and clothes handed over by Koroviev. Rather focused in feeding your spirit. 
 
- > O thrice romantic master, wouldn't you like to stroll under the cherry blossom with your love in the daytime and listen to Schubert in the evening? Won’t you enjoy writing by candlelight with a goose quill? Don’t you want, like Faust, to sit over a retort in the hope of fashioning a new homunculus? That’s where you must go (...)’
+ > O thrice romantic master, wouldn't you like to stroll under the cherry blossom with your love in the daytime and listen to Schubert in the evening? Won’t you enjoy writing by candlelight with a goose quill? Don’t you want, like Faust, to sit over a retort in the hope of fashioning a new homunculus? That’s where you must go (...)
