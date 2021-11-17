@@ -11,13 +11,12 @@ thumbnail = "images/posts/master_and_margarita.png"
 draft = false
 +++
 
-![Master and Margarita](/images/posts/master_and_margarita.png "Master and Margarita")[^1]
-
-[^1]: Design cover: Rundesign
-
 Brief review of Mikhail Bulgakov book, The Master And Margarita.
 <!--more-->
 
+![Master and Margarita](/images/posts/master_and_margarita.png "Master and Margarita")[^1]
+
+[^1]: Design cover: Rundesign
 
 # The Master and Margarita
 
