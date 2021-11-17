@@ -11,7 +11,7 @@ thumbnail = "images/posts/master_and_margarita.png"
 draft = false
 +++
 
-Brief review of Mikhail Bulgakov book, The Master And Margarita.
+Brief review of Mikhail Bulgakov book, The Master And Margarita. Warning: spoilers ahead
 <!--more-->
 
 ![Master and Margarita](/images/posts/master_and_margarita.png "Master and Margarita")[^1]
@@ -22,7 +22,7 @@ Brief review of Mikhail Bulgakov book, The Master And Margarita.
 
 I like reading a lot. I always enjoyed it but somehow, in the last few years I filled up my reading habits with non-fiction... Must-be-productive Must-learn-all-the-time. Technical readings, geopolitics, news, fitness, health, science, etc. Also Hacker News, where many would recommend The Master and Margarita. Tired with shallow text, I gave it a go, and it blew my mind.
 
-# Warning: spoilers ahead
+# Censorship
 
 In The Master and Margarita you have a veiled story that criticises the Stalin regime and how its censorship cut the wings of artists who are too elevated spiritually to preach about the virtues of the statu quo. In real life Mikhail Bulgakov was censored from the moment he acquired fame with the White Guard in 1925. He was accused by the bureaucracy of praising old values and putting in danger the “new russian man” His later and best work would only be published posthumously.
 
