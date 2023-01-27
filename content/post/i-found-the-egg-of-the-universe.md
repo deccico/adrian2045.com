@@ -1,5 +1,6 @@
 +++
 title = "The Egg of The Universe"
+description = "I accidentally re-discovered the cosmic Egg Theory."
 date = "2023-01-27"
 tags = [
     "philosophy",
