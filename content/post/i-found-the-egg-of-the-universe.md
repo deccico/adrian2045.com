@@ -21,7 +21,9 @@ Me: A toy egg
 AI: Ah, that's fun. What is inside the egg?
 Me: The whole universe fits in the egg, yet the egg is within the universe. Can you explain that?
 
-AI: This is a Zen and Buddhist concept called the Cosmic Egg. It symbolizes the unity between everything in the universe - that all things are connected and part of the same whole. It suggests that the universe is both within and beyond each individual.
+AI: This is a Zen and Buddhist concept called the Cosmic Egg. It symbolizes the unity between everything 
+in the universe - that all things are connected and part of the same whole. 
+It suggests that the universe is both within and beyond each individual.
 ```
 
 Context, my three years old just said "I found an egg!" So I repeated it to GPT with a formulation for a philosophical 
