@@ -9,6 +9,10 @@ tags = [
 featured = false
 +++
 
+I accidentally re-discovered the cosmic Egg Theory.
+<!--more-->
+
+
 Playing with GPT API I generated the following conversation:
 
 ```
