@@ -1,6 +1,6 @@
 baseURL = 'https://adriandeccico.com/'
 languageCode = 'en-us'
-title = 'adrian2045.com'
+title = 'adriandeccico.com'
 author = 'Adrián Deccico'
 description = "Adrián Deccico's web site"
 theme = "hugo-clarity"
