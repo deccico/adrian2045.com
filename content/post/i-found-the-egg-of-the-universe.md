@@ -31,9 +31,10 @@ in the universe - that all things are connected and part of the same whole.
 It suggests that the universe is both within and beyond each individual.
 ```
 
-Context, my three years old just said "I found an egg!" So I repeated it to GPT with a formulation for a philosophical 
-theory (I was just having fun) that was already invented long ago... I searched for references but could not find 
-the exact theory, except for a book with low reviews and a Wikipedia article with many references from many cultures.
+Context, my three years old just said "I found an egg!" So I repeated it to GPT with a personal formulation for a 
+philosophical theory (I was just having fun) that was already invented long ago... I searched for references but 
+could not find the exact theory, except for a book with low reviews and a Wikipedia article with many references 
+from many cultures.
 
 Related links I found: 
 * https://en.wikipedia.org/wiki/World_egg
