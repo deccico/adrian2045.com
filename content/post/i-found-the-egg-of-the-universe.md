@@ -5,6 +5,7 @@ date = "2023-01-27"
 tags = [
     "philosophy",
     "ai",
+    "python",
 ]
 featured = false
 +++
