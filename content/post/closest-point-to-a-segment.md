@@ -5,7 +5,7 @@ tags = [
     "c++",
     "programming",
     "geometry",
-    "snippet",
+    "code",
 ]
 thumbnail = "images/posts/closest_point.png"
 featured = false

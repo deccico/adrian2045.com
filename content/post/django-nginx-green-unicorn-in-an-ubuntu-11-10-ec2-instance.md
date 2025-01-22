@@ -7,7 +7,7 @@ tags = [
     "ec2",
     "gunicorn",
     "nginx",
-    "snippet",
+    "code",
     "sysadmin",
     "ubuntu",
 ]

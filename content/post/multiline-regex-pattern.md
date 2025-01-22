@@ -6,7 +6,7 @@ tags = [
     "c#",
     "programming",
     "python",
-    "snippet",
+    "code",
 ]
 thumbnail = "images/posts/regex.png"
 featured = false

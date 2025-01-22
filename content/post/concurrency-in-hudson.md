@@ -2,7 +2,7 @@
 title = "Concurrency in Hudson"
 date = "2010-08-25"
 description = "How to organize and avoid concurrency problems when implementing complex projects in Hudson?"
-tags = ["hudson","jenkins","continuous integration","groovy","snippet"]
+tags = ["hudson","jenkins","continuous integration","groovy","code"]
 thumbnail = "images/posts/concurrency-294x300.jpg"
 featured = false
 codeLineNumbers = true

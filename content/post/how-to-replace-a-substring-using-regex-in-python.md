@@ -5,7 +5,7 @@ tags = [
     "regular expressions",
     "programming",
     "python",
-    "snippet",
+    "code",
 ]
 featured = false
 +++

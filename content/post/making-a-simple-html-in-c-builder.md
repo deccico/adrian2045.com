@@ -5,7 +5,7 @@ tags = [
     "c++",
     "c++ builder",
     "windows api",
-    "snippet",
+    "code",
 ]
 thumbnail = "images/posts/cpp_builder.png"
 featured = false

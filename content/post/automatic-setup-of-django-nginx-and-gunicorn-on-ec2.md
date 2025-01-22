@@ -10,7 +10,7 @@ tags = [
     "gunicorn",
     "nginx",
     "jenkins",
-    "snippet",
+    "code",
     "sysadmin",
 ]
 featured = true

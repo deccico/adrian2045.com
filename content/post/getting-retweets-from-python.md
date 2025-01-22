@@ -4,7 +4,7 @@ date = "2010-09-22"
 tags = [
     "python",
     "programming",
-    "snippet",
+    "code",
     "twitter",
 ]
 thumbnail = "images/posts/retweets.png"
