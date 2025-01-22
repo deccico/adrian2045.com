@@ -1,0 +1,5 @@
+#run the project
+hugo server 
+
+#add a new post
+hugo new content content/post/avoid-spam-with-multiple-email-aliases.md
