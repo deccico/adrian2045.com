@@ -10,73 +10,60 @@ tags = [
 ]
 thumbnail = "/images/posts/avoid-spam.webp"
 +++
-Here I introduce my solution to deal with multiple newsletters and services requesting your email address while keeping 
-your email private and safe. 
-<!--more-->
 
+Here I introduce my solution to deal with multiple newsletters and services requesting your email address while keeping your email private and safe.
+<!--more-->
 
 ![](/images/posts/avoid-spam.webp)[^1]
 [^1]: Image design: Dall-E
 
 # Introduction and Motivation
 
-More information means more power and money and big entities are always hungry for it. This includes advertisement 
-companies such as Google, marketing and sales organisations, spammers, governments, etc. From a personal perspective 
-avoiding to be profiled and your data sold to the next bidder is not great. But how to avoid this while also living a 
-normal life? How can we take advantage of the multiple services the modern life offers us? With easy to create Infinite 
-Email Aliases, of course! While not a perfect solution, it at least can help us keep our email addresses private. 
-Receiving less spam and being able to focus more. 
+More information means more power and money, and big entities are always hungry for it. This includes advertisement companies such as Google, marketing and sales organisations, spammers, governments, etc. From a personal perspective, being profiled and having your data sold to the highest bidder is far from ideal. But how do we avoid this while living a normal life? How can we take advantage of the many services modern life offers us? The answer: easy-to-create infinite email aliases! While not a perfect solution, this approach can help us keep our email addresses private, receive less spam, and focus more on what matters.
 
-Computer privacy and security are very hard. Borderline impossible. But despair not! Here I introduce an easy solution 
-for keeping your personal email address safe while being able to subscribe to newsletters and services to your hearts 
-content. While computer security is never perfect, adding multiple security layers can make all the difference to keep 
-bad actors in check or at least makes it more expensive to bypass our controls. Onion layers FTW!
+Computer privacy and security are very challenging. Borderline impossible. But despair not! Here, I introduce an easy solution for keeping your personal email address safe while subscribing to newsletters and services to your heart’s content. While computer security is never perfect, adding multiple security layers can make all the difference in keeping bad actors in check or at least making it more expensive for them to bypass our controls. Onion layers FTW!
 
 # Requirements
 
-What do we need? We will use a Namecheap account with a special domain we just use for forwarding emails. If privacy is 
-your intention, it's better to have a separate, special domain for this purpose. Alternatively you could use another
-email service provider that has an API and allows to setup redirection.
+What do we need? We will use a Namecheap account with a special domain solely for forwarding emails. If privacy is your intention, it's better to have a separate domain for this purpose. Alternatively, you could use another email service provider that has an API and allows for redirection setup.
 
-# How does it work?
+# How Does It Work?
 
 ![](/images/posts/email-fwd.webp)
 
+We will use the Namecheap API to set up email redirections. All email aliases will forward to one main email address. Of course, it’s possible to set up different forwarding addresses if your use case requires it.
 
-We will make use of Namecheap API to setup email redirections. All emails aliases will go to one, single email address.
-Of course it's possible to setup different ones if your use case is different.
+I recommend adding multiple numbers to create a "premade" list of email aliases that you can provide on the fly (e.g., 1 to 100), as well as setting up specific ones to match the services you use. For example:
 
-My recommendation is to add multiple numbers in order to have a "premade" list of email aliases that we can just give 
-on the fly, say from 1 to 100 and also setup particular ones to match the service we are utilising. For example:
+Let’s say our private domain for email aliases is **myfwd.com**. Then we would have:
 
-Let's say our private domain for email aliases is myfwd.com Then we will have:
+```
+1@myfwd.com → adrian@gmail.com
+2@myfwd.com → adrian@gmail.com
+3@myfwd.com → adrian@gmail.com
+...
+99@myfwd.com → adrian@gmail.com
+```
 
-1@myfwd.com -> adrian@gmail.com<br>
-2@myfwd.com -> adrian@gmail.com<br>
-3@myfwd.com -> adrian@gmail.com<br>
-..<br>
-99@myfwd.com -> adrian@gmail.com<br>
+Additionally:
 
-Also:
+```
+council@myfwd.com → adrian@gmail.com
+bank@myfwd.com → adrian@gmail.com
+newsletter@myfwd.com → adrian@gmail.com
+```
 
-council@fwd.com -> adrian@gmail.com<br>
-bank@fwd.com -> adrian@gmail.com<br>
-newsletter@fwd.com -> adrian@gmail.com<br>
+The first set would be "premade," while the specific aliases could be created on demand.
 
+# Show Me the Code
 
-So the first set would be "premade" while the special, name aliases would need to be added to be created on demand.
+In the code below, I set up 50 email aliases. You will need to configure the Namecheap API, whitelist your IP, and obtain the API keys. Complete all the information in **credentials.py**.
 
+You can also access the code here: [GitHub Repository](https://github.com/deccico/aliar/tree/main)
 
-# Show me the code
+## credentials.py
 
-In the code below I'm setting up 50 email aliases. You would need to setup Namecheap api, whitelist your IP and obtain
-the api keys. All that information in <b>credentials.py</b> needs to be completed.
-
-You can also access the code here: https://github.com/deccico/aliar/tree/main
-
-## credentials.py 
-
-<b>credentials.py</b> contains the main variables and secret keys.
+**credentials.py** contains the main variables and secret keys.
 
 ```python
 api_user = ''
@@ -87,10 +74,9 @@ domain = 'your-email-alias-domain.com'
 alias_email = 'yourname@gmail.com'
 ```
 
-
 ## aliar.py
 
-This is the main code that you run and where you define the email aliases. 1..50 aliases are created below:
+This is the main code that you run to define the email aliases. Below, 1 to 50 aliases are created:
 
 ```python
 import requests
@@ -179,9 +165,9 @@ else:
 
 # Limitations
 
-While I have run successfully this setup for many months I noticed some limitations:
+While I have successfully used this setup for months, I’ve noticed some limitations:
 
-## Answering to emails
+## Replying to Emails
 
 In case you need to answer to an email sent to any of your aliases, you would be responding from your main, private 
 email. While this might be OK, you can also setup an email service for that particular address in Namecheap. While 
@@ -189,26 +175,19 @@ aliases are free, hosting email start from around $1 per month depending on the 
 
 ## Time to receive emails
 
-A forwarding might introduce an additional delay, although in the practice I could hardly notice any. I found only
-one service incapable of sending emails to my alias email. This should become very obvious and easy to detect. 
-Unfortunately in those cases we might need to give up on the service or use another address.
+Forwarding may introduce a slight delay. However, in practice, I’ve hardly noticed any delays. Only one service has been unable to send emails to my alias, which became immediately apparent. In such cases, you might need to use a different, non forwarded address or give up on that service.
 
-## IP Addition
+## IP Whitelisting
 
-Namecheap does require to whitelist IPs. This means that every now and then we might need to whitelist a new IP
-in case we reset our router or our ISP decides to rotate it.
+Namecheap requires IP whitelisting. This means that occasionally, you may need to whitelist a new IP if you reset your router or your ISP rotates your IP address.
 
 # Benefits
 
-Infinite, free and private email addresses! I am no longer hesitant to give my email thinking in all the spam I might 
-receive. The code is easy to run for new addresses and the API is very safe. There are many other solutions but this is
-the only one where I have full control and is also free to implement. 
+Infinite, free, and private email addresses! I am no longer hesitant to share my email address for fear of spam. The code is easy to run for new addresses, and the API is very secure. While there are other solutions, this one offers full control and is free to implement.
 
-Additionally, if you receive spam from one of your aliases, you will immediately know who sold you. If one email 
-becomes very spammy (it happens) you can very easily comment out the code and disable the email. One word of caution:
-don't add or remove aliases manually in the Namecheap dashboard. Either use the api or the web UI.
+Additionally, if you receive spam from one of your aliases, you will know exactly who sold your information. If an email alias becomes too spammy, you can easily disable it by commenting out the relevant code. One word of caution: avoid manually adding or removing aliases in the Namecheap dashboard. Either use the API or the web UI.
 
 # Summary
 
-In this post I present my solution to increase privacy in a meaningful and easy eay at not cost other than the domain
-we are using.
+In this post, I presented a solution to significantly enhance your privacy in an easy, cost-effective way. The only expense is the domain you use for forwarding emails.
+
