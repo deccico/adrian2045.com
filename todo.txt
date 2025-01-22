@@ -1,0 +1,4 @@
+-Update to new Hugo, since pushing the submodule breaks the Cloudflare build.
+Alternatively create a Docker image with that Hugo version (0.87.0)
+
+ -Get a nicer logo? Maybe with a cartoon version. Maybe.
